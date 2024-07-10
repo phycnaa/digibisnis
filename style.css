@@ -1,0 +1,126 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;      
+}
+
+.navbar{
+    background: linear-gradient(135deg, #E4BD36 100%, #F8F046 0%);
+    height: 85px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);
+}
+
+.navbar > h1 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.hero-container{
+    display: flex;
+    height: 470px;
+    padding: 0 10%;
+    background: linear-gradient(135deg, #E4BD36 100%, #F8F046 0%);
+}
+
+.hero-container > div {
+    width: 50%;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container h1 {
+    font-size: 40px;
+}
+.hero-container > img {
+    width: 50%;
+    height: 323px;
+    align-self: center;
+}
+
+.testimoni-container{
+    background: linear-gradient(135deg, #E4BD36 100%, #F8F046 0%);
+    height: 85px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-container {
+    
+    min-height: 400px;
+    background: linear-gradient(135deg, #E4BD36 100%, #F8F046 0%);
+    padding: 0 10%;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .content-container .card {
+    background: white;
+    height: 100%;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.1);
+    transform: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2);
+    cursor: pointer;
+  }
+  
+  .card > img {
+    object-fit: fill;
+    height: 240px;
+    width: 100%;
+  }
+  
+  .card > .card-body {
+    padding: 20px;
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    margin: 0 15px 0 0;
+  }
+  
+  .card p {
+    color: var(--gray);
+    font-size: 16px;
+  }
+  
+  .card > .card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  footer {
+    background: linear-gradient(135deg, #E4BD36 100%, #F8F046 0%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    height: 80px;
+  }
+  footer > div {
+    display: flex;
+    gap: 30px;
+  }
+  footer {
+    flex-direction: column-reverse;
+  }
